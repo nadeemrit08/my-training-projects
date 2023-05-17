@@ -1,0 +1,24 @@
+package in.nadeem.rest;
+
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.RestController;
+
+import com.netflix.discovery.converters.Auto;
+
+import in.nadeem.client.GreetClient;
+
+@RestController
+public class WelcomeRestController {
+
+	@Auto
+	private GreetClient greetClient;
+
+	@GetMapping("/welcome")
+	public String welcome() {
+		String welcomeMsg = "Welcome to AshokIT....Microservises....!!";
+
+		String greetMsg = greetClient.invokeGreetApi();
+
+		return greetMsg + " " + welcomeMsg;
+	}
+}

@@ -1,0 +1,10 @@
+package in.nadeem;
+
+public class JAXBContext {
+
+	public static JAXBContext newInstance(Class<Book> class1) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

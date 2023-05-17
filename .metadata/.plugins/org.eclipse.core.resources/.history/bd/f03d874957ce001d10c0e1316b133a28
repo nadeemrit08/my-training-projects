@@ -1,0 +1,17 @@
+package in.nadeem;
+
+import java.awt.print.Book;
+
+import javax.xml.bind.JAXBContext;
+
+public class JavaToXmlConverter{
+
+	public static void main(String[] args) throws Exception{
+		
+		JAXBContext context = JAXBContext.newInstance(Book.class);
+	
+		Marshaller marshaller = context.createMarshaller();
+	
+	}
+	
+}

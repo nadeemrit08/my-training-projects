@@ -1,0 +1,5 @@
+package in.nadeem.rest;
+
+public class WelcomeRestController {
+
+}

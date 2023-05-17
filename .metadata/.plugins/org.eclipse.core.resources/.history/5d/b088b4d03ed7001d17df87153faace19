@@ -1,0 +1,11 @@
+package in.nadeem.rest;
+
+import org.springframework.web.bind.annotation.RestController;
+
+@RestController
+public class GreetRestController {
+
+	public String greet() {
+		return "Good Morning It is time to ramzan...!!!";
+	}
+}

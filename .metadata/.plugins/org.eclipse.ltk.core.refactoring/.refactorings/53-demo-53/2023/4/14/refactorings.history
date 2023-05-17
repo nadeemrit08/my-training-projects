@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;test.java&apos; to &apos;lomok-123/src/main/java/in.nadeem&apos;&#x0D;&#x0A;- Original project: &apos;53-demo-53&apos;&#x0D;&#x0A;- Destination element: &apos;lomok-123/src/main/java/in.nadeem&apos;&#x0D;&#x0A;- Original element: &apos;in.nadeem.test.java&apos;" description="Copy compilation unit" destination="=lomok-123/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;in.nadeem" element1="/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;in.nadeem{test.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1680795504479" units="1" version="1.0"/>
+</session>

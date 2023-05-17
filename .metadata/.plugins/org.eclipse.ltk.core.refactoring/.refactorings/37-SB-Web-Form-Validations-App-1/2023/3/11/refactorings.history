@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;37-SB-Web-Form-Validations-App-1/src/main/webapp/pages/dashboard,jsp.jsp&apos; to &apos;dashboard.jsp&apos;" description="Rename resource &apos;dashboard,jsp.jsp&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/main/webapp/pages/dashboard,jsp.jsp" name="dashboard.jsp" stamp="1679169782167" updateReferences="true"/>
+</session>

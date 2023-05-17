@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;com.nadeem.ContactsMarkerEntity&apos; to &apos;ContactsMasterEntity&apos;&#x0D;&#x0A;- Original project: &apos;12-springdata-jpa&apos;&#x0D;&#x0A;- Original element: &apos;com.nadeem.ContactsMarkerEntity&apos;&#x0D;&#x0A;- Renamed element: &apos;com.nadeem.ContactsMasterEntity&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;ContactsMarkerEntity&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.nadeem{ContactsMarkerEntity.java[ContactsMarkerEntity" matchStrategy="1" name="ContactsMasterEntity" qualified="false" references="true" similarDeclarations="false" stamp="1678464916610" textual="false" version="1.0"/>
+</session>

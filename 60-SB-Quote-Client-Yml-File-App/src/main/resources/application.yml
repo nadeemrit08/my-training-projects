@@ -1,0 +1,9 @@
+server:
+  port: 9090
+spring:
+  mvc:
+    pathmatch:
+      matching-strategy: ANT_PATH_MATCHER
+app:
+  message:
+    quoteApiUrl: https://jsonplaceholder.typicode.com/users/1      

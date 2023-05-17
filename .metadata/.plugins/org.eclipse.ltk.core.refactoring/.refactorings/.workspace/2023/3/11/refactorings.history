@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;26-Spring-data-jpa-coposite-key&apos; to &apos;27-Spring-data-jpa-coposite-key&apos;" description="Rename resource &apos;26-Spring-data-jpa-coposite-key&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="/26-Spring-data-jpa-coposite-key" name="27-Spring-data-jpa-coposite-key" stamp="1678737343469" updateReferences="true"/>
+</session>

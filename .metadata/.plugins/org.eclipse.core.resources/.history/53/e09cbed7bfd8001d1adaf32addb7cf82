@@ -1,0 +1,5 @@
+package in.nadeem.repository;
+
+public interface StockPriceRepository {
+
+}

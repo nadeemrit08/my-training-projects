@@ -1,0 +1,42 @@
+package in.nadeem;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.context.ConfigurableApplicationContext;
+
+import in.nadeem.entity.Employee;
+import in.nadeem.entity.Product;
+import in.nadeem.repository.EmpRepository;
+import in.nadeem.repository.ProductRepository;
+
+@SpringBootApplication
+public class Application {
+
+	public static void main(String[] args) {
+		ConfigurableApplicationContext context = SpringApplication.run(Application.class, args);
+
+		EmpRepository empRepository = context.getBean(EmpRepository.class);
+
+		System.out.println(" Impl Class :: " + empRepository.getClass().getName());
+
+		Employee employee = new Employee();
+		employee.setEmpId(105);
+		employee.setEmpName("agi");
+		employee.setEmpSal(50);
+
+		empRepository.save(employee);
+
+		ProductRepository productRepository = context.getBean(ProductRepository.class);
+		System.out.println(" Products Class :: " + productRepository.getClass().getName());
+
+		Product product = new Product();
+		product.setProductId(202);
+		product.setProductName("Laptop");
+		product.setProductPrice(50000);
+
+		productRepository.save(product);
+
+		System.out.println("++++++++++++Record Saved+++++++++++++++");
+	}
+
+}

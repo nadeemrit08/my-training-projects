@@ -1,0 +1,28 @@
+server:
+  port: 1111
+ 
+spring:
+  application:
+    name: STOCK-PRICE-API
+    
+  datasource:
+    url: jdbc:h2:mem:testDB
+    username: SA
+    password: null
+    driver-class-name: org.h2.Driver 
+  mvc:
+    pathmatch:
+      matching-strategy: PATH_PATTERN_PARSER  
+  jpa:
+    defer-datasource-initialization: true 
+      
+management:
+  endpoints:
+    web:
+      exposure:
+        include: '*'
+        
+
+  
+        
+            

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Delete resource &apos;04_SB_Autowiring_CI_App&apos;" deleteContents="false" description="Delete resource &apos;04_SB_Autowiring_CI_App&apos;" element1="/04_SB_Autowiring_CI_App" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1673059336173"/>
+</session>

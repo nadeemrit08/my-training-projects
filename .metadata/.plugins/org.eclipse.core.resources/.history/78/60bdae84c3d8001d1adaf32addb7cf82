@@ -1,0 +1,13 @@
+package in.nadeem.service;
+
+import in.nadeem.bindings.StockPriceResponse;
+
+public class StockPriceServiceImpl implements StockPriceService {
+
+	@Override
+	public StockPriceResponse getStockPrice(String companyName) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

@@ -1,0 +1,28 @@
+package in.nadeem;
+
+
+
+import javax.xml.bind.JAXBContext;
+import javax.xml.bind.Marshaller;
+
+public class JavaToXmlConverter{
+
+	public static void main(String[] args) throws Exception{
+		
+	
+		
+		
+		
+		
+		
+		
+		JAXBContext context = JAXBContext.newInstance(Book.class);
+	
+		Marshaller marshaller = context.createMarshaller();
+		
+		
+		marshaller.marshal(arg0, arg1);
+	
+	}
+	
+}
